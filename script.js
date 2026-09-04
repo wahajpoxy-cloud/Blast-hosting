@@ -1,0 +1,1 @@
+const panel=document.getElementById('panel');function openPanel(){panel.style.display='block';panel.scrollIntoView({behavior:'smooth'})}document.getElementById('theme').onclick=()=>document.body.classList.toggle('light');

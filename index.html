@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CPvP Hosting</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="logo">⚔ CPvP<span>HOST</span></div><button id="theme">☾</button></header>
+<main>
+<section class="hero"><p class="tag">MINECRAFT HOSTING</p><h1>Your server.<br><span>Your rules.</span></h1><p>Manage your Minecraft server, mods, plugins and datapacks from one clean panel.</p><button class="primary" onclick="openPanel()">Create Server</button></section>
+<section class="cards">
+<div class="card"><b>⚡ Performance</b><p>Optimized server settings for smooth gameplay.</p></div>
+<div class="card"><b>🧩 Mods & Plugins</b><p>Organize mods, plugins and datapacks.</p></div>
+<div class="card"><b>🌐 Server Address</b><p>Keep your public server address in one place.</p></div>
+</section>
+<section id="panel" class="panel">
+<h2>Server Control Panel</h2>
+<div class="status"><i></i> Offline <span>CPvP Server</span></div>
+<div class="actions"><button onclick="alert('Backend required to start a real server.')">Start</button><button onclick="alert('Backend required.')">Restart</button><button onclick="alert('Backend required.')">Stop</button></div>
+<div class="grid">
+<div><b>Players</b><strong>0 / 100</strong></div><div><b>RAM</b><strong>2–6 GB</strong></div>
+<div><b>Mods</b><strong>0</strong></div><div><b>Plugins</b><strong>0</strong></div>
+</div>
+<h3>Files</h3><div class="files"><span>📁 mods/</span><span>📁 plugins/</span><span>📁 datapacks/</span><span>📁 config/</span></div>
+</section>
+</main>
+<footer>CPvP Hosting • Minecraft Java</footer>
+<script src="script.js"></script>
+</body></html>

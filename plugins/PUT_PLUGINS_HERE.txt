@@ -1,0 +1,1 @@
+Put compatible plugin JARs here if your server implementation supports plugins.
